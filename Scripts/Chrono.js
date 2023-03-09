@@ -22,8 +22,8 @@ let ChronoIsRunning = false;
 
 function addZeroChrono(int) {
 
-    // if(int.length < 2) return `0${int}`;
     if(int < 10) return "0" + int;
+
     else return int;
 }
 
